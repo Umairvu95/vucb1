@@ -19,7 +19,7 @@ import json
 import random
 
 #loading the json dataset 
-intents = json.loads(open('D:\CBAI\intents.json', encoding='utf-8').read())
+intents = json.loads(open('D:\CBAI init\intents.json', encoding='utf-8').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
 
